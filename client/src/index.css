@@ -28,7 +28,7 @@ body {
 .entry-form input,
 .entry-form textarea,
 .entry-form button {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin: 0.5rem 0;
   display: block;
   width: 100%;
@@ -40,5 +40,13 @@ body {
   padding: 5px 10px;
   border-radius: 6px;
   background-color: #16a085;
+  color: #ecf0f1;
+}
+
+.error {
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background-color: #e74c3c;
   color: #ecf0f1;
 }
